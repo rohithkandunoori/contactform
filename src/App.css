@@ -1,0 +1,55 @@
+.head{
+background-color: aqua;
+height: 50px;
+text-align: center;
+
+}
+.contactform{
+  background-color: beige;
+  display: grid;
+  place-items: center;
+
+
+}
+.contactcontainer{
+  display:grid;
+  place-items: center;
+}
+
+.contactsdisplay{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+
+}
+
+.contact{
+  color:solid rgb(109, 16, 16);
+  margin: 10px 20px;
+  width: 250px;
+  height: 150px;
+  padding: 15px;
+  background-color: bisque;
+  border-radius: 30px;
+  border:solid black 5px;
+  box-shadow:black 5px 5px 5px,
+  10px 10px 10px red;
+  
+}
+
+.text{
+  
+  font-size: 25px;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+font-weight: bold;
+display: flex;
+    justify-content: space-between;
+}
+.deletebutton{
+background: none;
+border: none;
+}
+
+.deleteicon{
+  height: 25px;
+  width: 20px;
+}
